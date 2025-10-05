@@ -1,39 +1,57 @@
-# mecanet-landing-page
+# RedCarga - Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+Landing page oficial de **RedCarga**, la aplicación móvil que transforma el transporte de carga terrestre conectando clientes y proveedores en una sola plataforma.
 
-## Recommended IDE Setup
+## Sobre RedCarga
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+RedCarga optimiza el transporte de carga terrestre ofreciendo:
+-  Conexión directa entre clientes y proveedores de carga
+-  Seguimiento GPS en tiempo real
+-  Optimización de rutas y costos
+-  Gestión transparente y segura
+-  Trazabilidad confiable de entregas
 
-## Type Support for `.vue` Imports in TS
+## Tecnologías
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Este proyecto está desarrollado con:
+- **Vue 3** - Framework progresivo de JavaScript
+- **TypeScript** - Tipado estático para JavaScript
+- **Vite** - Build tool y dev server ultra rápido
+- **Vue Router** - Enrutamiento para aplicaciones SPA
+- **Vue i18n** - Internacionalización (ES/EN)
 
-## Customize configuration
+## Requisitos previos
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Node.js (versión 18 o superior)
+- npm o yarn
 
-## Project Setup
+## Instalación
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Desarrollo
+
+Ejecutar el servidor de desarrollo con hot-reload:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+La aplicación estará disponible en `http://localhost:5173`
+
+## Compilación para Producción
+
+Verificar tipos y compilar para producción:
 
 ```sh
 npm run build
 ```
+## 👥 Equipo
 
-### Lint with [ESLint](https://eslint.org/)
+Desarrollado por estudiantes de UPC - Ingeniería de Software
 
-```sh
-npm run lint
-```
+---
+
+©2025 RedCarga. Todos los derechos reservados.
