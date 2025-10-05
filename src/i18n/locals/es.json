@@ -1,0 +1,145 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "product": "Producto",
+    "benefits": "Beneficios",
+    "plans": "Planes",
+    "faq": "FAQ",
+    "login": "Iniciar Sesión",
+    "loginAriaLabel": "Iniciar sesión en la plataforma",
+    "register": "Crear cuenta",
+    "registerAriaLabel": "Crear nueva cuenta"
+  },
+  "hero": {
+    "title": "RedCarga",
+    "subtitle": "Conecta tu carga de forma rápida y segura",
+    "description": "Redcarga optimiza el transporte de carga terrestre uniendo clientes y proveedores en una sola plataforma."
+  },
+  "product": {
+    "sectionTitle": "Producto",
+    "title": "¿Qué es RedCarga?",
+    "subtitle": "Descubre Redcarga, la aplicación móvil creada para transformar el transporte de carga terrestre.",
+    "description": "Diseñada para empresas y transportistas que buscan eficiencia, seguridad y visibilidad en tiempo real, Redcarga soluciona los principales desafíos de la logística:",
+    "features": {
+      "preventive": "Conexión directa entre clientes y proveedores de carga.",
+      "corrective": "Optimización de rutas y costos para mayor rentabilidad.",
+      "predictive": "Gestión transparente con seguimiento y trazabilidad confiable."
+    }
+  },
+  "benefits": {
+    "sectionTitle": "Beneficios",
+    "items": [
+      {
+        "titleBefore": "Cotiza y solicita",
+        "titleHighlight": "en minutos",
+        "description": "Envía tu requerimiento de carga pesada con fotos. Nuestra IA estima las medidas para acelerar las cotizaciones."
+      },
+      {
+        "titleBefore": "Transparencia en la",
+        "titleHighlight": "negociación",
+        "description": "Recibe cotizaciones instantáneas de transportistas, compara precios y negocia los detalles directamente por chat."
+      },
+      {
+        "titleBefore": "Trazabilidad total,",
+        "titleHighlight": "siempre a la mano",
+        "description": "Monitorea la ubicación de tu carga por GPS en tiempo real desde el momento del pago. El rastreo es obligatorio para el transportista."
+      },
+      {
+        "titleBefore": "Documentación automática y",
+        "titleHighlight": "pagos seguros",
+        "description": "Realiza el pago de forma segura dentro de la app. Genera automáticamente todos los documentos de envío necesarios."
+      },
+      {
+        "titleBefore": "Tu historial de envíos",
+        "titleHighlight": "organizado",
+        "description": "Accede a todos tus envíos pasados, cotizaciones, pagos y documentos. Toda la información respaldada en la nube."
+      }
+    ]
+  },
+  "plans": {
+    "title": "Planes",
+    "subtitle": "Te ofrecemos",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "free": {
+      "title": "Plan Gratuito",
+      "price": "s/0.00",
+      "features": [
+        "Hasta 10 activos",
+        "Mantenimientos preventivos básicos",
+        "Registro manual de órdenes de trabajo",
+        "Notificaciones por correo 1 usuario administrador"
+      ]
+    },
+    "professional": {
+      "title": "Plan Profesional",
+      "features": [
+        "Hasta 50 activos",
+        "Todo lo del plan Gratuito",
+        "Mantenimientos correctivos y predictivos",
+        "Indicadores de rendimiento (MTTR, MTBF, etc.)",
+        "Historial completo de mantenimientos",
+        "Soporte por chat y correo",
+        "Hasta 5 usuarios administradores"
+      ]
+    },
+    "corporate": {
+      "title": "Plan Corporativo",
+      "features": [
+        "Activos ilimitados",
+        "Todo lo del plan profesional",
+        "Gestión de repuestos e inventario",
+        "Cantidad ilimitada de usuarios relacionados (técnico, admin)",
+        "Soporte prioritario"
+      ]
+    },
+    "cta": "Acceder",
+    "time":{
+      "monthly": "mensual",
+      "yearly": "anual"
+    }
+  },
+  "faq": {
+    "title": "¿Tienes dudas?",
+    "subtitle": "Aquí resolvemos tus preguntas más frecuentes.",
+    "questions": [
+      {
+        "question": "¿Cómo se garantiza la seguridad de mi carga?",
+        "answer": "Garantizamos la seguridad con transportistas validados y rastreo GPS obligatorio en tiempo real. Además, el pago se gestiona de forma segura a través de la app y solo se libera al transportista tras confirmar la entrega."
+      },
+      {
+        "question": "¿Cuál es el proceso para enviar carga pesada?",
+        "answer": "???"
+      },
+      {
+        "question": "¿Por qué debería usar RedCarga en lugar de un proceso tradicional?",
+        "answer": "???"
+      },
+      {
+        "question": "¿Qué tipo de transportistas y rutas cubre la plataforma?",
+        "answer": "???"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "©2025 RedCarga. Derechos reservados."
+  },
+  "statistics": {
+    "lessFailures": {
+      "title": "25%",
+      "subtitle": "Menor costo operativo"
+    },
+    "scheduledMaintenance": {
+      "title": "95%",
+      "subtitle": "Cargas entregadas a tiempo"
+    },
+    "lessTime": {
+      "title": "+100",
+      "subtitle": "Transportistas validados"
+    }
+  },
+  "video": {
+    "product": "' Sobre el Producto '",
+    "team": "' Sobre el Equipo '"
+  }
+}

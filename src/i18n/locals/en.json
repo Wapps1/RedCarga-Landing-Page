@@ -1,0 +1,145 @@
+{
+  "navbar": {
+    "home": "Home",
+    "product": "Product",
+    "benefits": "Benefits",
+    "plans": "Plans",
+    "faq": "FAQ",
+    "login": "Login",
+    "loginAriaLabel": "Login to the platform",
+    "register": "Sign Up",
+    "registerAriaLabel": "Create new account"
+  },
+  "hero": {
+    "title": "RedCarga",
+    "subtitle": "Connect your load quickly and securely",
+    "description": "RedCarga optimizes ground freight transport by connecting customers and providers on a single platform."
+  },
+  "product": {
+    "sectionTitle": "Product",
+    "title": "What is RedCarga?",
+    "subtitle": "Discover RedCarga, the mobile app created to transform ground freight transport.",
+    "description": "Designed for companies and carriers seeking efficiency, security, and real-time visibility, RedCarga solves the main logistics challenges:",
+    "features": {
+      "preventive": "Direct connection between customers and load providers.",
+      "corrective": "Route and cost optimization for greater profitability.",
+      "predictive": "Transparent management with reliable tracking and traceability."
+    }
+  },
+  "benefits": {
+    "sectionTitle": "Benefits",
+    "items": [
+      {
+        "titleBefore": "Quote and request ",
+        "titleHighlight": "in minutes",
+        "description": "Send your heavy load requirement with photos. Our AI estimates measurements to speed up quotes."
+      },
+      {
+        "titleBefore": "Transparency in ",
+        "titleHighlight": "negotiation",
+        "description": "Receive instant quotes from carriers, compare prices and negotiate details directly via chat."
+      },
+      {
+        "titleBefore": "Total traceability, ",
+        "titleHighlight": "always at hand",
+        "description": "Monitor your load location via GPS in real-time from the moment of payment. Tracking is mandatory for the carrier."
+      },
+      {
+        "titleBefore": "Automatic documentation and ",
+        "titleHighlight": "secure payments",
+        "description": "Make secure payments within the app. Automatically generate all necessary shipping documents."
+      },
+      {
+        "titleBefore": "Your shipping history ",
+        "titleHighlight": "organized",
+        "description": "Access all your past shipments, quotes, payments, and documents. All information backed up in the cloud."
+      }
+    ]
+  },
+  "plans": {
+    "title": "Plans",
+    "subtitle": "We offer you",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "free": {
+      "title": "Free Plan",
+      "price": "$0.00",
+      "features": [
+        "Up to 10 assets",
+        "Basic preventive maintenance",
+        "Manual work order registration",
+        "Email notifications 1 admin user"
+      ]
+    },
+    "professional": {
+      "title": "Professional Plan",
+      "features": [
+        "Up to 50 assets",
+        "Everything from Free plan",
+        "Corrective and predictive maintenance",
+        "Performance indicators (MTTR, MTBF, etc.)",
+        "Complete maintenance history",
+        "Chat and email support",
+        "Up to 5 admin users"
+      ]
+    },
+    "corporate": {
+      "title": "Corporate Plan",
+      "features": [
+        "Unlimited assets",
+        "Everything from Professional plan",
+        "Spare parts and inventory management",
+        "Unlimited related users (technician, admin)",
+        "Priority support"
+      ]
+    },
+    "cta": "Access",
+    "time":{
+      "monthly": "monthly",
+      "yearly": "yearly"
+    }
+  },
+  "faq": {
+    "title": "Have questions?",
+    "subtitle": "Here we answer your most frequently asked questions.",
+    "questions": [
+      {
+        "question": "How is the security of my load guaranteed?",
+        "answer": "We guarantee security with validated carriers and mandatory GPS tracking in real-time. Additionally, payment is managed securely through the app and is only released to the carrier after confirming delivery."
+      },
+      {
+        "question": "What is the process for sending heavy load?",
+        "answer": "???"
+      },
+      {
+        "question": "Why should I use RedCarga instead of a traditional process?",
+        "answer": "???"
+      },
+      {
+        "question": "What type of carriers and routes does the platform cover?",
+        "answer": "???"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "©2025 RedCarga. All rights reserved."
+  },
+  "statistics": {
+    "lessFailures": {
+      "title": "25%",
+      "subtitle": "Lower operational cost"
+    },
+    "scheduledMaintenance": {
+      "title": "95%",
+      "subtitle": "load delivered on time"
+    },
+    "lessTime": {
+      "title": "+100",
+      "subtitle": "Validated carriers"
+    }
+  },
+  "video": {
+    "product": "' About the Product '",
+    "team": "' About the Team '"
+  }
+}
