@@ -5,10 +5,10 @@
     "benefits": "Beneficios",
     "plans": "Planes",
     "faq": "FAQ",
-    "login": "Iniciar Sesión",
-    "loginAriaLabel": "Iniciar sesión en la plataforma",
-    "register": "Crear cuenta",
-    "registerAriaLabel": "Crear nueva cuenta"
+    "downloadAndroid": "Android",
+    "downloadAndroidAriaLabel": "Descargar aplicación para Android",
+    "downloadIOS": "iOS",
+    "downloadIOSAriaLabel": "Descargar aplicación para iOS"
   },
   "hero": {
     "title": "RedCarga",
@@ -57,40 +57,34 @@
     ]
   },
   "plans": {
-    "title": "Planes",
-    "subtitle": "Te ofrecemos",
+    "title": "Planes para Proveedores",
+    "subtitle": "Red Carga",
     "monthly": "Mensual",
     "yearly": "Anual",
     "free": {
-      "title": "Plan Gratuito",
-      "price": "s/0.00",
+      "title": "Básico Legal",
+      "subtitle": "Diseñado para que todo proveedor pueda operar cumpliendo la ley, sin pagar nada.",
+      "price": "$0.00",
       "features": [
-        "Hasta 10 activos",
-        "Mantenimientos preventivos básicos",
-        "Registro manual de órdenes de trabajo",
-        "Notificaciones por correo 1 usuario administrador"
+        "Flota: hasta 2 vehículos activos",
+        "Tracking habilitado para todos los tratos formales",
+        "Chat con clientes activo en tratos y formales",
+        "Reputación: se muestran calificaciones y tags, sin estadísticas avanzadas",
+        "Visibilidad: nivel estándar (aparece luego de los planes pagos)",
+        "Análisis básico: histórico de tratos de los últimos 30 días"
       ]
     },
-    "professional": {
-      "title": "Plan Profesional",
+    "premium": {
+      "title": "Profesional Plus",
+      "subtitle": "Para empresas transportistas que buscan visibilidad, control total y costos más bajos.",
       "features": [
-        "Hasta 50 activos",
-        "Todo lo del plan Gratuito",
-        "Mantenimientos correctivos y predictivos",
-        "Indicadores de rendimiento (MTTR, MTBF, etc.)",
-        "Historial completo de mantenimientos",
-        "Soporte por chat y correo",
-        "Hasta 5 usuarios administradores"
-      ]
-    },
-    "corporate": {
-      "title": "Plan Corporativo",
-      "features": [
-        "Activos ilimitados",
-        "Todo lo del plan profesional",
-        "Gestión de repuestos e inventario",
-        "Cantidad ilimitada de usuarios relacionados (técnico, admin)",
-        "Soporte prioritario"
+        "Flota: hasta 20 vehículos activos (expansible con add-ons)",
+        "Cotizaciones ilimitadas",
+        "Tracking avanzado: con historial de ruta, alertas de parada, y notificación automática al cliente",
+        "Reputación destacada: aparece en el top del ranking y puede responder reseñas",
+        "Visibilidad: prioridad en listados y sugerencias",
+        "Analítica avanzada: dashboard con métricas (eficiencia de rutas, clientes frecuentes, ingresos mensuales)",
+        "Exportaciones: reportes de documentos, tratos y pagos en CSV/PDF"
       ]
     },
     "cta": "Acceder",
@@ -109,15 +103,15 @@
       },
       {
         "question": "¿Cuál es el proceso para enviar carga pesada?",
-        "answer": "???"
+        "answer": "El proceso inicia creando una solicitud en la app, donde registras tipo de carga, fotos que permiten estimar medidas con IA, peso y la ruta de origen, puntos intermedios y destino. En minutos recibes cotizaciones en tiempo real de transportistas verificados y eliges la que prefieras para iniciar un trato con chat habilitado. La formalización se realiza con el pago dentro de la app; en ese momento se generan automáticamente los documentos obligatorios (Guía de Remisión y Guía de Transportista). Durante el viaje, la carga se rastrea por GPS en tiempo real hasta la confirmación de entrega."
       },
       {
         "question": "¿Por qué debería usar RedCarga en lugar de un proceso tradicional?",
-        "answer": "???"
+        "answer": "RedCarga integra en un solo lugar cotización instantánea, documentación automática y trazabilidad completa, eliminando llamadas, papeleo y opacidad en precios y estados. Los pagos se gestionan de forma segura dentro de la app y solo se liberan al transportista tras la confirmación de entrega, lo que reduce riesgos. Además, el sistema de reputación y el chat directo con el proveedor otorgan mayor transparencia y control operativo que los métodos tradicionales."
       },
       {
         "question": "¿Qué tipo de transportistas y rutas cubre la plataforma?",
-        "answer": "???"
+        "answer": "La plataforma reúne empresas y transportistas verificados que operan rutas interprovinciales en el Perú, incluyendo trayectos con puntos intermedios. Atiende cargas generales y especializadas (agroindustrial, maquinaria, materiales, entre otras) y permite tanto envíos puntuales como operaciones recurrentes. El motor de emparejamiento asigna cada solicitud a los proveedores con la capacidad y la ruta más adecuadas para optimizar tiempos y costos."
       }
     ]
   },

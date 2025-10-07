@@ -49,22 +49,28 @@
         <div class="navbar__buttons navbar__buttons--mobile">
           <InteractiveComponent
             tag="a"
-            :href="loginConfig.href"
+            :href="androidDownloadConfig.href"
             variant="primary"
-            :aria-label="loginConfig.ariaLabel"
-            @click="loginConfig.onClick"
+            :aria-label="androidDownloadConfig.ariaLabel"
+            @click="androidDownloadConfig.onClick"
           >
-            {{ loginConfig.text }}
+            <svg class="button-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67c-.19-.28-.54-.37-.83-.22-.3.16-.42.54-.26.85l1.84 3.18C2.92 11.03 1 14.22 1 17.8h22c0-3.58-1.92-6.77-5.4-8.32zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
+            </svg>
+            {{ androidDownloadConfig.text }}
           </InteractiveComponent>
 
           <InteractiveComponent
             tag="a"
-            :href="registerConfig.href"
+            :href="iosDownloadConfig.href"
             variant="secondary"
-            :aria-label="registerConfig.ariaLabel"
-            @click="registerConfig.onClick"
+            :aria-label="iosDownloadConfig.ariaLabel"
+            @click="iosDownloadConfig.onClick"
           >
-            {{ registerConfig.text }}
+            <svg class="button-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+            </svg>
+            {{ iosDownloadConfig.text }}
           </InteractiveComponent>
         </div>
       </div>
@@ -92,26 +98,32 @@
     <div
       class="navbar__buttons navbar__buttons--desktop"
       role="navigation"
-      aria-label="Acciones de usuario"
+      aria-label="Descargar aplicación"
     >
       <InteractiveComponent
         tag="a"
-        :href="loginConfig.href"
+        :href="androidDownloadConfig.href"
         variant="primary"
-        :aria-label="loginConfig.ariaLabel"
-        @click="loginConfig.onClick"
+        :aria-label="androidDownloadConfig.ariaLabel"
+        @click="androidDownloadConfig.onClick"
       >
-        {{ loginConfig.text }}
+        <svg class="button-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67c-.19-.28-.54-.37-.83-.22-.3.16-.42.54-.26.85l1.84 3.18C2.92 11.03 1 14.22 1 17.8h22c0-3.58-1.92-6.77-5.4-8.32zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
+        </svg>
+        {{ androidDownloadConfig.text }}
       </InteractiveComponent>
 
       <InteractiveComponent
         tag="a"
-        :href="registerConfig.href"
+        :href="iosDownloadConfig.href"
         variant="secondary"
-        :aria-label="registerConfig.ariaLabel"
-        @click="registerConfig.onClick"
+        :aria-label="iosDownloadConfig.ariaLabel"
+        @click="iosDownloadConfig.onClick"
       >
-        {{ registerConfig.text }}
+        <svg class="button-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+        </svg>
+        {{ iosDownloadConfig.text }}
       </InteractiveComponent>
     </div>
 
@@ -251,35 +263,35 @@ watch(locale, () => {
     { text: t('navbar.faq'), href: '#faq', isActive: navItems.value[4].isActive },
   ]
 
-  loginConfig.value = {
-    ...loginConfig.value,
-    text: t('navbar.login'),
-    ariaLabel: t('navbar.loginAriaLabel'),
+  androidDownloadConfig.value = {
+    ...androidDownloadConfig.value,
+    text: t('navbar.downloadAndroid'),
+    ariaLabel: t('navbar.downloadAndroidAriaLabel'),
   }
 
-  registerConfig.value = {
-    ...registerConfig.value,
-    text: t('navbar.register'),
-    ariaLabel: t('navbar.registerAriaLabel'),
+  iosDownloadConfig.value = {
+    ...iosDownloadConfig.value,
+    text: t('navbar.downloadIOS'),
+    ariaLabel: t('navbar.downloadIOSAriaLabel'),
   }
 })
 
-const loginConfig = ref<ButtonConfig>({
-  text: t('navbar.login'),
-  href: 'https://agreeable-moss-0b81a851e.6.azurestaticapps.net/iniciar-sesion',
-  ariaLabel: t('navbar.loginAriaLabel'),
+const androidDownloadConfig = ref<ButtonConfig>({
+  text: t('navbar.downloadAndroid'),
+  href: 'https://play.google.com/store',
+  ariaLabel: t('navbar.downloadAndroidAriaLabel'),
   onClick: () => {
-    console.log('Redirigiendo a inicio de sesión')
+    console.log('Descargando app para Android')
     isMobileMenuOpen.value = false
   },
 })
 
-const registerConfig = ref<ButtonConfig>({
-  text: t('navbar.register'),
-  href: 'https://agreeable-moss-0b81a851e.6.azurestaticapps.net/registrar',
-  ariaLabel: t('navbar.registerAriaLabel'),
+const iosDownloadConfig = ref<ButtonConfig>({
+  text: t('navbar.downloadIOS'),
+  href: 'https://www.apple.com/app-store/',
+  ariaLabel: t('navbar.downloadIOSAriaLabel'),
   onClick: () => {
-    console.log('Abriendo modal de registro')
+    console.log('Descargando app para iOS')
     isMobileMenuOpen.value = false
   },
 })
@@ -394,6 +406,11 @@ const registerConfig = ref<ButtonConfig>({
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+.navbar__buttons :deep(.button-icon) {
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 .navbar__hamburger {

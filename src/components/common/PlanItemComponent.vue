@@ -2,6 +2,7 @@
   <div class="plan-card" :class="{ 'plan-card--dark': isDark }">
     <div class="plan-header">
       <h3 class="plan-title">{{ title }}</h3>
+      <p v-if="subtitle" class="plan-subtitle">{{ subtitle }}</p>
       <div class="plan-price">
         {{ price }}
         <span v-if="period" class="plan-period">{{ period }}</span>
@@ -40,10 +41,10 @@
     </div>
 
     <div class="plan-action">
-      <button 
+      <button
       target="_blank"
-        class="action-button" 
-        :class="{ 'action-button--dark': isDark }" 
+        class="action-button"
+        :class="{ 'action-button--dark': isDark }"
         @click="redirectToRegister"
       >
         {{ actionText }}
@@ -55,6 +56,7 @@
 <script setup lang="ts">
 interface Props {
   title: string
+  subtitle?: string
   price: string
   period?: string
   features: string[]
@@ -66,6 +68,7 @@ withDefaults(defineProps<Props>(), {
   actionText: 'Acceder',
   isDark: false,
   period: '',
+  subtitle: '',
 })
 
 const redirectToRegister = () => {
@@ -76,7 +79,7 @@ const redirectToRegister = () => {
 <style scoped>
 .plan-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
   height: 100%;
   background-color: white;
   border-radius: 20px;
@@ -126,6 +129,18 @@ const redirectToRegister = () => {
 
 .plan-card--dark .plan-title {
   color: white;
+}
+
+.plan-subtitle {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: #666;
+  margin: 8px 0 0 0;
+  line-height: 1.4;
+}
+
+.plan-card--dark .plan-subtitle {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .plan-price {

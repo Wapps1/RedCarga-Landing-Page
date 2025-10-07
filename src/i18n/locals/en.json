@@ -5,10 +5,10 @@
     "benefits": "Benefits",
     "plans": "Plans",
     "faq": "FAQ",
-    "login": "Login",
-    "loginAriaLabel": "Login to the platform",
-    "register": "Sign Up",
-    "registerAriaLabel": "Create new account"
+    "downloadAndroid": "Android",
+    "downloadAndroidAriaLabel": "Download app for Android",
+    "downloadIOS": "iOS",
+    "downloadIOSAriaLabel": "Download app for iOS"
   },
   "hero": {
     "title": "RedCarga",
@@ -57,40 +57,34 @@
     ]
   },
   "plans": {
-    "title": "Plans",
-    "subtitle": "We offer you",
+    "title": "Plans for Providers",
+    "subtitle": "Red Carga",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "free": {
-      "title": "Free Plan",
+      "title": "Basic Legal",
+      "subtitle": "Designed so that any provider can operate in compliance with the law, without paying anything.",
       "price": "$0.00",
       "features": [
-        "Up to 10 assets",
-        "Basic preventive maintenance",
-        "Manual work order registration",
-        "Email notifications 1 admin user"
+        "Fleet: up to 2 active vehicles",
+        "Tracking enabled for all formal deals",
+        "Chat with clients active in deals and formal transactions",
+        "Reputation: ratings and tags are shown, without advanced statistics",
+        "Visibility: standard level (appears after paid plans)",
+        "Basic analysis: deal history of the last 30 days"
       ]
     },
-    "professional": {
-      "title": "Professional Plan",
+    "premium": {
+      "title": "Professional Plus",
+      "subtitle": "For transport companies seeking visibility, total control and lower costs.",
       "features": [
-        "Up to 50 assets",
-        "Everything from Free plan",
-        "Corrective and predictive maintenance",
-        "Performance indicators (MTTR, MTBF, etc.)",
-        "Complete maintenance history",
-        "Chat and email support",
-        "Up to 5 admin users"
-      ]
-    },
-    "corporate": {
-      "title": "Corporate Plan",
-      "features": [
-        "Unlimited assets",
-        "Everything from Professional plan",
-        "Spare parts and inventory management",
-        "Unlimited related users (technician, admin)",
-        "Priority support"
+        "Fleet: up to 20 active vehicles (expandable with add-ons)",
+        "Unlimited quotes",
+        "Advanced tracking: with route history, stop alerts, and automatic client notification",
+        "Featured reputation: appears in top ranking and can respond to reviews",
+        "Visibility: priority in listings and suggestions",
+        "Advanced analytics: dashboard with metrics (route efficiency, frequent customers, monthly income)",
+        "Exports: reports of documents, deals and payments in CSV/PDF"
       ]
     },
     "cta": "Access",
@@ -109,15 +103,15 @@
       },
       {
         "question": "What is the process for sending heavy load?",
-        "answer": "???"
+        "answer": "The process begins by creating a request in the app, where you register the type of load, photos that allow measurements to be estimated using AI, weight, and the route from origin to destination, including intermediate points. Within minutes, you receive real-time quotes from verified carriers and choose the one you prefer to start a deal with chat enabled. The formalisation is done with payment within the app; at that moment, the mandatory documents (Waybill and Carrier Guide) are automatically generated. During the journey, the cargo is tracked by GPS in real time until delivery confirmation."
       },
       {
         "question": "Why should I use RedCarga instead of a traditional process?",
-        "answer": "???"
+        "answer":  "RedCarga integrates instant quotes, automatic documentation and complete traceability in one place, eliminating calls, paperwork and opacity in prices and statuses. Payments are managed securely within the app and are only released to the carrier after delivery confirmation, reducing risks. In addition, the reputation system and direct chat with the supplier provide greater transparency and operational control than traditional methods."
       },
       {
         "question": "What type of carriers and routes does the platform cover?",
-        "answer": "???"
+        "answer": "The platform brings together verified companies and carriers operating interprovincial routes in Peru, including journeys with intermediate stops. It handles general and specialised cargo (agro-industrial, machinery, materials, among others) and allows for both one-off shipments and recurring operations. The matching engine assigns each request to the providers with the most suitable capacity and route to optimise time and costs."
       }
     ]
   },

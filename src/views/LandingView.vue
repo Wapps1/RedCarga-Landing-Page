@@ -69,7 +69,7 @@ section {
   justify-content: center;
   align-items: center;
   scroll-margin-top: 100px; /* Ajusta esto según la altura de tu navbar */
-  padding: 4rem 0;
+  padding: 1em 0;
 }
 
 /* Mejora la estética en dispositivos pequeños */
